@@ -16,7 +16,8 @@ The dataset includes numerous images containing both control genes and knockdown
 ### 2.3 Data annotation
 In-house software for data annotation has been generated and is available at https://github.com/Chuenchat/cellLabel
 
-## 3. Cell coutning techniques comparion: 16 deep learning and 1 Image processing 
+## 3. Cell coutning techniques comparion: 
+16 deep learning and 1 Image processing 
 ### 3.1 Image processing technique
 CellProfiler is a notable tool for processing biological images, with an example illustrating its application in cell counting in the "IP " directory.
 
