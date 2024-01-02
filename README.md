@@ -60,7 +60,7 @@ python -m torch.distributed.launch --nproc_per_node=1 --master_port=29500 tools/
 - Bacterial infection assessment
 
 ## 4. Comprehensive graph and table publication 
-main figure & table and supplementary figures are presented in a graph publication folder
+Main figure & table and supplementary figures are presented in a graph publication folder
 
 
 
