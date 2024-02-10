@@ -52,7 +52,7 @@ python tools/test.py <path_to_config_file> <path_to_checkpoint>  --show-dir <pat
 
 - Use the following command for train_time: python tools/analysis_tools/analyze_logs.py cal_train_time log.json <br>
 
-- Use the following command for inference_time
+- Use the following command for inference_time:
 python -m torch.distributed.launch --nproc_per_node=1 --master_port=29500 tools/analysis_tools/benchmark.py <path_to_config_file> <path_to_checkpoint> --launcher pytorch --save_path <path_to_save> <br>
 
 ### 3.2.3 Example of Model results by looking at the folder
